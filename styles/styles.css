@@ -1,0 +1,33 @@
+  @media screen and (max-width:768px) {
+  .site__nav {
+        background-color: aqua;
+        width: 100%;
+  }
+
+  .cover {
+      display: grid;
+      grid-area: auto;
+      grid-column: 1fr;
+      grid-row: 1fr;
+  }
+  
+  .cover div {
+      max-width: 100%;
+      background-color: blueviolet;
+      margin: auto 0 10px auto;
+  }
+
+  .latest__news {
+      display: grid;
+      grid-area: auto;
+      grid-column: 1fr;
+      grid-row: 1fr;
+  }
+
+  .latest__news div {
+    max-width: 100%;
+    background-color: blueviolet;
+    margin: auto 0 10px auto;
+}
+  }  
+  
