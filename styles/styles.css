@@ -75,14 +75,50 @@
     width: 90%;
 }
 
-.latest__deals-header
-{
+.latest__deals-header {
     display: flex;
-    justify-content: space-between; 
-   
-    
-
+    justify-content: space-between;
 }
 
-  }  
+.footer__top {
+  background-color: rgb(46, 46, 46);
+  text-align: center;
+  width: 100%;
+}
+
+.footer__top-nav {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 20px;
   
+}
+
+.footer__top-nav a {
+  border-radius: 5px solid orangered;
+}
+
+.footer__top-nav i {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 0 20px;
+  
+}
+
+.footer__bottom {
+  background-color: black;
+  color: #666;
+}
+
+.footer__bottom a {
+  text-decoration: none;
+}
+
+
+.footer__top-nav-sub a {  
+  color: #666;
+  text-decoration: none;
+}
+
+
+  }
