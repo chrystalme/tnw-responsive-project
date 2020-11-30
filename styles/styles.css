@@ -70,5 +70,19 @@ aside nav {
     color: #333;
     font-size: 25px;
 }
+
+.latest__deals {
+    width: 90%;
+}
+
+.latest__deals-header
+{
+    display: flex;
+    justify-content: space-between; 
+   
+    
+
+}
+
   }  
   
