@@ -363,5 +363,18 @@
   }
 
 @media (min-width: 1024px) {
+  .site__header {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+  }
 
+  .site__header-content a {
+    color: antiquewhite;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 4px;
+  }
 }
