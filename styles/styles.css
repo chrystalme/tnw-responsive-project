@@ -59,16 +59,172 @@
     background-color: wheat;
     margin-bottom: 5px;
   }
+
   .image__link-list {
-    background-color: crimson;
-    margin: 10px auto;
+    margin: auto;
     width: 90%;
   }
+
+  .image__link-list h2 a{
+    color: #f42;
+    text-decoration: none;
+    font-weight:bolder;
+    line-height: 1.1;
+    font-family: Avalon,sans-serif;
+    font-size: 28px;
+    letter-spacing: -.015em;
+  }
+.image__link-list-header {
+    margin-top:-115px;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+
+.image__link-list-header h5{
+  margin-top:20px;
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
+}
+
+.image__link-list-header h3{
+  margin-top: -15px;
+  font-size: 20px;
+}
+
+.image__linl-list-tagline {
+  min-height: 66px;
+}
+
+.image__link-list-header h3 a{
+  color: #fff;
+  font-family: Shentox,sans-serif;
+  text-decoration: none;
+  
+}
+
+.image__link-list-headerpic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  width: 100%;
+  min-height: 330px;
+}
+
+.image__link-list-headerpic-musk {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.42), rgba(0, 0, 0, 0.929)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/stonksdorsey-368x276.jpg");
+}
+
+.image__link-list-headerpic-snapchat {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.42), rgba(0, 0, 0, 0.929)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/Snapchat-Lit-368x276.jpg");
+}
+
+.image__link-list-headerpic-gear {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.42), rgba(0, 0, 0, 0.929)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/header-image-AI-is-the-future-of-home-security-spotcam-368x276.png");
+}
   .image__link-list li {
     text-decoration: none;
     color: #333;
     font-size: 25px;
+    list-style: none;
+    margin-left: -40px;
   }
+
+.image__link-list-credits {
+  display: flex;
+  color: hsla(0,0%,100%,.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: -15px;
+}
+
+.image__link-list-credits li {
+  display: flex;
+  color: hsla(0,0%,100%,.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-right: 45px;
+}
+
+.image__link-list-credits li a {
+  color: hsla(0,0%,100%,.6);
+  text-decoration: none;
+}
+
+.image__link-latest {
+  background-color: rgba(255,68,34,.06);
+  display: flex;
+  color: #f42;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.image__link-latest h5{
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
+}
+
+.image__link-latest h4 a{
+  font-size: 14px;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.image__link-latest-text {
+  margin-top: -12px;
+}
+
+.image__link-latest-icon {
+  background-size: cover;
+  background-position: 50%;
+  height: 96px;
+  width: 96px;
+  flex: 0 0 96px;
+  }
+
+.image__link-latest-icon-musk {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/elonstonks.jpg");
+}
+
+.image__link-latest-icon-snapchat {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/header-image-apps-work-on-apple-silicon-m1-chip.png");
+}
+
+.image__link-latest-icon-snapchat {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Snag_390c810d.png");
+}
+
+.image__link-list-bullet-wrapper {
+  list-style-position:inside;
+  list-style-type: circle;
+  
+}
+
+.image__link-list-bullet {
+  border-bottom: 1px solid #eee;
+}
+
+.image__link-list-bullet a {
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 6px 0 6px 14px;
 }
 
 .latest__deals {
@@ -121,4 +277,4 @@
 }
 
 
-  }
+}
