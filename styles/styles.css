@@ -23,6 +23,9 @@
     color: blanchedalmond;
     text-decoration: none;
   }
+  .site__header {
+    display: none;
+  }
 
   .site__nav {
     align-items: center;
@@ -33,7 +36,6 @@
     position: -webkit-sticky;
     top: 0;
     width: 100%;
-
   }
 
   .site__nav img {
@@ -361,5 +363,5 @@
   }
 
 @media (min-width: 1024px) {
-  
+
 }
