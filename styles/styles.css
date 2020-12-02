@@ -12,6 +12,10 @@
     display: inline;
   }
 
+  section {
+    width: 80%;
+  }
+
   aside {
     display: flex;
     flex-direction: column;
@@ -183,11 +187,19 @@
 }
 
 .latest__header {
-  color: #f42;
+  flex: 1;
+}
+
+.latest__header a{
+ text-decoration: none;
+ color: #f42;
 }
 
 .latest__nav {
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin-bottom: 20px;
 }
 
 .latest__news-item {
@@ -211,26 +223,35 @@
   color: #666;
 }
 
+.section__latest_header {
+  margin: auto;
+}
+
   .aside__link {
     margin-bottom: 10px;
+    border-right: 1px solid #f42;
+    margin-right: 10px;
   }
 
   .aside__link a {
     color: orangered;
     text-decoration: none;
   }
+  
+  /* Story section */
 
   .section__story {
-    display: grid;
-    grid-row: 1fr;
-    grid-column: 1fr;
+    display: flex;
+    justify-content: space-between;
     margin: 5px auto;
-    width: 90%;
   }
 
   .section__story-card {
     background-color: rgb(252, 222, 226);
+    flex: 1;
     margin-bottom: 20px;
+    margin-right: 10px;
+    max-width: 285px;
   }
 
   .section__story-flow {
@@ -305,113 +326,10 @@
   width: 60px;
 }
 
-  .image__link-list {
-    margin: auto;
-    width: 90%;
-  }
+/* latest Deals Section */
 
-  .image__link-list h2 a{
-    color: #f42;
-    text-decoration: none;
-    font-weight:bolder;
-    line-height: 1.1;
-    font-family: Avalon,sans-serif;
-    font-size: 28px;
-    letter-spacing: -.015em;
-  }
-.image__link-list-header {
-  margin-top:-180px;
-  color: #fff;
-  font-size: 13px;
-  margin-bottom: 6px;
-  margin-left: 10px;
-}
-
-.image__link-list-header h5{
-  margin-top:20px;
-  font-family: Shentox,sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .04em;
-  line-height: 1.5;
-}
-
-.image__link-list-header h3{
-  margin-top: -15px;
-  font-size: 20px;
-}
-
-.image__linl-list-tagline {
-  min-height: 66px;
-}
-
-.image__link-list-header h3 a{
-  color: #fff;
-  font-family: Shentox,sans-serif;
-  text-decoration: none;
-  
-}
-
-.image__link-list-headerpic {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #000;
-  width: 100%;
-  min-height: 330px;
-}
-
-.image__link-list-headerpic-musk {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.42), rgba(0, 0, 0, 0.929)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/stonksdorsey-368x276.jpg");
-}
-
-.image__link-list-headerpic-snapchat {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.42), rgba(0, 0, 0, 0.929)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/Snapchat-Lit-368x276.jpg");
-}
-
-.image__link-list-headerpic-gear {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.42), rgba(0, 0, 0, 0.929)),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/header-image-AI-is-the-future-of-home-security-spotcam-368x276.png");
-}
-  .image__link-list li {
-    color: #333;
-    font-size: 25px;
-    text-decoration: none;
-  }
-
-.image__link-latest-icon-musk {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/elonstonks.jpg");
-}
-
-.image__link-latest-icon-snapchat {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/header-image-apps-work-on-apple-silicon-m1-chip.png");
-}
-
-.image__link-latest-icon-snapchat {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Snag_390c810d.png");
-}
-
-.image__link-list-bullet-wrapper {
-  list-style-position:inside;
-  list-style-type: circle;
-  
-}
-
-.image__link-list-bullet {
-  border-bottom: 1px solid #eee;
-}
-
-.image__link-list-bullet a {
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-  text-decoration: none;
-  color: #555;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.5;
-  padding: 6px 0 6px 14px;
-}
-
-.latest__deals {
+.section__latest-deals {
   margin: 0 auto;
-    width: 90%;
 }
 
 .latest__deals-header {
@@ -432,9 +350,14 @@
   color: #f42;
 }
 
+.latest__deals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .latest__deals-details img {
-  width: 70px;
-  float: left;
+  width: 270px;
   padding-right: 10px;
 }
 
@@ -443,6 +366,7 @@
 }
 
 .latest__deals-details {
+  flex: 1;
   margin-bottom: 20px;
 }
 
@@ -452,7 +376,7 @@
 }
 
 .footer__top {
-  background-color: rgb(46, 46, 46);
+  background-color: #272727;
   text-align: center;
   width: 100%;
 }
@@ -540,10 +464,6 @@
 
   .site__nav img {
     width: 100px;
-  }
-
-  .site__nav-logo {
-   
   }
 
   .site__nav-links a {
@@ -1170,3 +1090,4 @@
   }
   
 }
+
