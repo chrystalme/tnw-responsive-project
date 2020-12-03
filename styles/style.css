@@ -67,9 +67,6 @@ main {
 
 /* cover story mobile */
 .cover {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: space-between;
   max-width: 100%;
   height: auto;
 }
@@ -95,14 +92,14 @@ main {
       rgba(255, 255, 255, 0) 100%
     ),
     url("../images/pexels-cover.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .side__1 {
   background:
     linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, #fff0 100%),
     url("../images/pexels-cover-2.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .side__2 {
@@ -113,7 +110,7 @@ main {
       rgba(255, 255, 255, 0) 100%
     ),
     url("../images/pexels-cover-3.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .cover__main h3 {
@@ -137,7 +134,7 @@ main {
 }
 
 .latest__header {
-  padding-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .latest__header a {
@@ -173,12 +170,14 @@ main {
 }
 
 .aside__link {
-  margin: 10px 20px;
+  margin: 10px 10px;
 }
 
 .aside__link a {
+  display: block;
   color: orangered;
   text-decoration: none;
+  margin: 10px 20px;
 }
 
 /* Story Section */
@@ -192,7 +191,7 @@ main {
 }
 
 .section__story-flow {
-  background-color: tomato;
+  background-color: rgb(253, 152, 135);
 }
 
 .section__story-flow h3 {
@@ -211,6 +210,7 @@ main {
   position: relative;
   top: -30px;
   right: -90px;
+  padding-bottom: 5px;
 }
 
 .section__story-card h2 {
@@ -222,7 +222,9 @@ main {
 }
 
 .section__story-footnote {
-  padding-bottom: 20px;
+  background-color: rgb(252, 224, 188);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .section__story-footnote a {
@@ -263,6 +265,107 @@ main {
   width: 60px;
 }
 
+/* Hard Fork Section */
+.container__other-news {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.other__news-details {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("../images/pexels-cover.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50% 14px 14px 5px;
+}
+
+.other__news-details h2 {
+  margin: 50px;
+}
+
+.other__news-details a {
+  text-decoration: none;
+  color: white;
+}
+
+.other__news-details span {
+  color: #666;
+}
+
+.other__extracts {
+  flex: 1;
+}
+
+.other__news-under-note {
+  display: flex;
+  background-color: bisque;
+}
+
+.other__news-under-note img {
+  width: 120px;
+}
+
+.other__news-under-note a {
+  display: inline;
+  text-decoration: none;
+}
+
+.other__news-link a {
+  text-decoration: none;
+  color: #666;
+}
+
+.other__news-link li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(187, 187, 187);
+  color: #f42;
+}
+
+/* Latest Deals */
+
+.section__latest-deals {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.latest__deals-header {
+  color: #f42;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.latest__deals {
+  display: block;
+
+  /* check for this */
+}
+
+.latest__deals-details img {
+  width: 70px;
+  padding-right: 10px;
+}
+
+.latest__deals-details h5 {
+  color: #555;
+}
+
+.latest__deals-details {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.old_price {
+  text-decoration-line: line-through;
+  margin-right: 5px;
+}
+
 /* footer */
 .footer {
   background-color: black;
@@ -278,7 +381,6 @@ main {
   font-size: 20px;
   list-style: none;
   padding: 50px 20px;
-  margin-top: 40px;
   margin-bottom: 10px;
 }
 
@@ -319,6 +421,10 @@ main {
   margin-right: 5px;
   color: #666;
   text-decoration: none;
+}
+
+.other__news-details a:last-child {
+  color: #666;
 }
 
 /* Media Query for medium screen */
@@ -460,6 +566,14 @@ main {
     width: 100%;
   }
 
+  .latest__nav {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 20px auto;
+    width: 90%;
+  }
+
   /* cover story section */
   .cover {
     display: grid;
@@ -526,6 +640,18 @@ main {
     font-weight: 700;
   }
 
+  /* Latest section */
+  .aside__link a {
+    display: inline;
+    border-right: 1px solid #f42;
+    color: orangered;
+    text-decoration: none;
+
+    /* padding: 5px; */
+
+    /* margin: 10px 20px; */
+  }
+
   /* story section */
 
   .section__story {
@@ -533,6 +659,7 @@ main {
     justify-content: space-around;
     align-content: center;
     margin: auto;
+    width: 90%;
   }
 
   .section__story-card {
