@@ -25,5 +25,5 @@ Working with media queries to make websites more accessible in a responsive way.
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/chrystalme)
-- Twitter [@twitterhandle](@afam_chrys)
+- Twitter: [@twitterhandle](https://twitter.com/afam_chrys)
 
