@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse Project 2 - TNW-Clone
+# Building with Responsive Design - TNW-Clone
 
 > The next web website clone.
 
 ![screenshot](./app_screenshot.png)
 
-Working with media queries to make websites more accessible 
+Working with media queries to make websites more accessible in a responsive way. taking care of all the kinds of devices the website would be assessed .
 
 
 ## Built With
@@ -25,4 +25,5 @@ Working with media queries to make websites more accessible
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/chrystalme)
+- Twitter [@twitterhandle](@afam_chrys)
 
