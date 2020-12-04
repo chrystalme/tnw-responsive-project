@@ -1,0 +1,138 @@
+@media screen and (min-width: 768px) {
+  /* header section */
+  .site__nav-right-bar {
+    display: none;
+  }
+
+  .small-screen {
+    display: none;
+  }
+
+  /* cover Section */
+  .cover {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 270px 270px;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+
+  .cover a {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    margin: 5px;
+  }
+
+  .cover__main {
+    margin: 5px 5px 0 5px;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .side__0 {
+    grid-row: 1/3;
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .side__0 h2 {
+    font-size: 30px;
+  }
+
+  .side__1 h2 {
+    font-size: 20px;
+  }
+
+  .side__1 {
+    grid-column: 2/3;
+    background:
+      linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, #fff0 100%),
+      url("../images/pexels-cover-2.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .side__2 {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover-3.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .cover__main h3 {
+    font-style: italic;
+  }
+
+  .cover__main h2 {
+    font-weight: 700;
+  }
+
+  /* Latest News Large screen */
+  .latest__news {
+    width: 90%;
+    margin: 80px auto 50px auto;
+  }
+
+  .latest__news-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .latest__header {
+    flex: 1;
+  }
+
+  .latest__header a {
+    text-decoration: none;
+    color: #f42;
+  }
+
+  .latest__nav {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .latest__news-item {
+    box-sizing: border-box;
+    flex: 1;
+    width: 250px;
+  }
+
+  .latest__news-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+  }
+
+  .latest__news-item img {
+    width: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .latest__news-item span {
+    color: #666;
+  }
+
+  .section__latest_header {
+    margin: auto;
+  }
+}
