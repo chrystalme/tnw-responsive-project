@@ -4,16 +4,45 @@
   padding: 0;
 }
 
-main {
-  background-color: beige;
+body {
+  box-sizing: border-box;
 }
 
 /* header */
-.site__header-max-screen {
-  display: none;
-}
 
 /* site Nav */
+
+.header__small {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5000;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header__small-logo {
+  background-color: black;
+  height: 80px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__small-icon a {
+  margin-right: 10px;
+}
+
+.header__md-svg2 {
+  height: 50px;
+  width: 50px;
+}
+
 .site__nav {
   align-content: center;
   background-color: white;
@@ -44,9 +73,14 @@ main {
   display: none;
 }
 
-.site__nav-right {
-  align-self: center;
-  padding: 10px;
+.site__header-max-screen {
+  display: none;
+}
+
+.site__nav-links a {
+  text-decoration: none;
+  color: #777;
+  margin-right: 10px;
 }
 
 .site__nav-right a {
@@ -54,9 +88,13 @@ main {
   text-decoration: none;
 }
 
+.site__nav-right {
+  align-self: center;
+  padding: 10px;
+}
+
 .fas {
   font-size: 20px;
-  line-height: 100%;
   padding-left: 5px;
 }
 
@@ -70,8 +108,12 @@ main {
 
 /* cover story mobile */
 .cover {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 180px 180px;
 }
 
 .cover a {
@@ -80,10 +122,10 @@ main {
 }
 
 .cover__main {
-  margin: 5px 5px 0 5px;
-  max-width: 100%;
-  padding: 50px 5px 5px 15px;
+  width: 100%;
   line-height: normal;
+  padding: 5px 5px 0 5px;
+  margin: 5px 5px;
 }
 
 .side__0 {
@@ -149,7 +191,7 @@ main {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .latest__news-item a {
@@ -457,6 +499,10 @@ main {
 
 .other__news-details a:last-child {
   color: #666;
+}
+
+.site__nav-links a:hover {
+  text-decoration: underline;
 }
 
 /* Media Query for medium screen */

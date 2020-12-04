@@ -7,58 +7,72 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/small_screen.css">
     <link rel="stylesheet" href="styles/large_screen.css">
+    <link rel="stylesheet" href="styles/small_screen.css">
+    <link rel="stylesheet" href="styles/very-large.css">
     <title>TNW Homepage Clone</title>
 </head>
 
 <body>
     <header>
         <div class="site__header-max-screen">
-            <div class="site__header-content">
-                <a href="#">News</a>
-                <a href="#">Events</a>
-                <a href="#">Business</a>
-                <a href="#">AMAs</a>
-                <a href="#">Spaces</a>
-                <a href="#">Terms &amp; Conditions</a>
+            <div class="header__md-logo">
+                <img class="header__md-svg"
+                    src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo">
             </div>
-            <div class="site__header-content right">
-                <a href="#">About</a>
-                <a href="#">Advertise</a>
-                <a href="#">Jobs</a>
-                <a href="#">Contacts</a>
-            </div>
-            <nav class="site__nav">
-                <div class="site__nav-left">
-                    <div class="site__nav-logo">
-                        <a href="#">
-                            <img src="/images/tnw.svg" alt="The New Web">
-                        </a>
-                    </div>
-                    <div class="site__nav-links">
-                        <a href="#">Latest</a>
-                        <a href="#">Hard Fork</a>
-                        <a href="#">Plugged</a>
-                        <a href="#">ReadMe</a>
-                        <a href="#">Growth Quaters</a>
-                        <a href="#">Shift</a>
-                        <a href="#">Neutral</a>
-                    </div>
+            <div class="header__black">
+                <div class="site__header-content margin-fix">
+                    <a href="#">News</a>
+                    <a href="#">Events</a>
+                    <a href="#">Business</a>
+                    <a href="#">AMAs</a>
+                    <a href="#">Spaces</a>
+                    <a href="#">Terms &amp; Conditions</a>
                 </div>
-                <div class="site__nav-right">
-                    <div class="site__nav-right-search">
-                        <a href="#">
+                <div class="site__header-content right">
+                    <a href="#">About</a>
+                    <a href="#">Advertise</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Contacts</a>
+                </div>
+            </div>
+            <div>
+                <nav class="header__md">
+                    <div class="site__nav-left">
+                        <!-- <div class="site__nav-logo">
+                            <a href="#">
+                                <img src="/images/tnw.svg" alt="The New Web">
+                            </a>
+                        </div> -->
+                        <div class="site__nav-links margin-fix">
+                            <a href="#">Latest</a>
+                            <a href="#">Hard Fork</a>
+                            <a href="#">Plugged</a>
+                            <a href="#">ReadMe</a>
+                            <a href="#">Growth Quaters</a>
+                            <a href="#">Shift</a>
+                            <a href="#">Neutral</a>
+                        </div>
+                        <div class="header__md-icon">
                             <i class="fas fa-search"></i>
-                        </a>
-                        <a class="site__nav-right-bar" href="#">
-                            <i class="fas fa-bars"></i>
-                        </a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                    <div class="site__nav-right">
+                        <div class="site__nav-right-search">
+                            <!-- <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a> -->
+                            <a class="site__nav-right-bar" href="#">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+
         </div>
-        <nav class="small-screen site__nav">
+        <!-- <nav class="small-screen site__nav">
             <div class="site__nav-left">
                 <div class="site__nav-logo">
                     <a href="#">
@@ -67,16 +81,24 @@
                 </div>
             </div>
             <div class="site__nav-right">
-                <div class="site__nav-right-search">
-                    <a href="#">
-                        <i class="fas fa-search"></i>
-                    </a>
-                    <a class="site__nav-right-bar" href="#">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                </div>
+
             </div>
-        </nav>
+        </nav> -->
+
+        <div class="header__small">
+            <div class="header__small-logo">
+                <img class="header__md-svg2"
+                    src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo">
+            </div>
+            <div class="header__small-icon">
+                <a>
+                    <i class="fas fa-search"></i>
+                </a>
+                <a class="site__nav-right-bar" href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
 
     </header>
     <main>
@@ -121,7 +143,7 @@
                         <a href="#">
                             <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
                                 <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
@@ -136,12 +158,11 @@
                     </div>
                     <div class="latest__news-item">
                         <a href="#">
-                            <img src="images/pexels-aleksandar-pasaric-1820770.jpg" alt="">
+                            <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
-                                <p>Spotify&apos;s Stories should feature music suggestions,
-                                    not artists&apos; video messages </p>
+                                <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
                             <h5>
                                 <a href="#">
@@ -152,12 +173,11 @@
                     </div>
                     <div class="latest__news-item">
                         <a href="#">
-                            <img src="images/pexels-madison-inouye-2821823.jpg" alt="">
+                            <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
-                                <p>Facebook said It would ban holocaust deniers. Instead, its algorithm provided a
-                                    network for them</p>
+                                <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
                             <h5>
                                 <a href="#">
@@ -170,7 +190,7 @@
                         <a href="#">
                             <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
                                 <p>Spooky space: Blue ring nebula reveals the secrets of binary stars</p>
                             </a>
@@ -185,7 +205,7 @@
                         <a href="#">
                             <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
                                 <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
@@ -200,7 +220,7 @@
                         <a href="#">
                             <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
                                 <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
@@ -215,7 +235,7 @@
                         <a href="#">
                             <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
                                 <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
@@ -230,7 +250,7 @@
                         <a href="#">
                             <img src="images/pexels-lumn-316465.jpg" alt="">
                         </a>
-                        <div>
+                        <div class="latest__news-text">
                             <a href="#">
                                 <p>The long&dash;term impacts COVID_19 will have on startups capital </p>
                             </a>
