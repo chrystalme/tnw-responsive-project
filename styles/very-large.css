@@ -1,15 +1,15 @@
-@media (min-width: 1024px){
-    .margin-fix {
-        margin-left: 20px;
-      }
-      .cover {
-        grid-template-rows: 180px 180px;
-    }
-    
+@media (min-width: 1024px) {
+  .margin-fix {
+    margin-left: 20px;
+  }
+
+  .cover {
+    grid-template-rows: 180px 180px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .cover {
-        grid-template-rows: 270px 270px;
-    }
+  .cover {
+    grid-template-rows: 270px 270px;
+  }
 }
