@@ -13,50 +13,72 @@
 </head>
 
 <body>
-    <header class="site__header">
-        <div class="site__header-content">
-            <a href="#">News</a>
-            <a href="#">Events</a>
-            <a href="#">Business</a>
-            <a href="#">AMAs</a>
-            <a href="#">Spaces</a>
-            <a href="#">Terms &amp; Conditions</a>
+    <header>
+        <div class="site__header-max-screen">
+            <div class="site__header-content">
+                <a href="#">News</a>
+                <a href="#">Events</a>
+                <a href="#">Business</a>
+                <a href="#">AMAs</a>
+                <a href="#">Spaces</a>
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+            <div class="site__header-content right">
+                <a href="#">About</a>
+                <a href="#">Advertise</a>
+                <a href="#">Jobs</a>
+                <a href="#">Contacts</a>
+            </div>
+            <nav class="site__nav">
+                <div class="site__nav-left">
+                    <div class="site__nav-logo">
+                        <a href="#">
+                            <img src="/images/tnw.svg" alt="The New Web">
+                        </a>
+                    </div>
+                    <div class="site__nav-links">
+                        <a href="#">Latest</a>
+                        <a href="#">Hard Fork</a>
+                        <a href="#">Plugged</a>
+                        <a href="#">ReadMe</a>
+                        <a href="#">Growth Quaters</a>
+                        <a href="#">Shift</a>
+                        <a href="#">Neutral</a>
+                    </div>
+                </div>
+                <div class="site__nav-right">
+                    <div class="site__nav-right-search">
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a class="site__nav-right-bar" href="#">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <div class="site__header-content right">
-            <a href="#">About</a>
-            <a href="#">Advertise</a>
-            <a href="#">Jobs</a>
-            <a href="#">Contacts</a>
-        </div>
+        <nav class="small-screen site__nav">
+            <div class="site__nav-left">
+                <div class="site__nav-logo">
+                    <a href="#">
+                        <img src="/images/tnw.svg" alt="The New Web">
+                    </a>
+                </div>
+            </div>
+            <div class="site__nav-right">
+                <div class="site__nav-right-search">
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a class="site__nav-right-bar" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
     </header>
-    <nav class="site__nav">
-        <div class="site__nav-left">
-            <div class="site__nav-logo">
-                <a href="#">
-                    <img src="/images/tnw.svg" alt="The New Web">
-                </a>
-            </div>
-            <div class="site__nav-links">
-                <a href="#">Latest</a>
-                <a href="#">Hard Fork</a>
-                <a href="#">Plugged</a>
-                <a href="#">ReadMe</a>
-                <a href="#">Growth Quaters</a>
-                <a href="#">Shift</a>
-                <a href="#">Neutral</a>
-            </div>
-        </div>
-        <div class="site__nav-right">
-            <div class="site__nav-right-search">
-                <a href="#">
-                    <i class="fas fa-search"></i>
-                </a>
-                <a class="site__nav-right-bar" href="#">
-                    <i class="fas fa-bars"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
     <main>
         <section class="cover">
             <div class="cover__main side__0">
@@ -370,18 +392,25 @@
                     </a>
                 </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
-                    </a>
-                    <a href="#">David Canellis</a><span> 1 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Square stock on fire: Jack Dorsey's
-                        beard sets 3 share price records in 3 days</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -405,18 +434,25 @@
                     </a>
                 </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
-                    </a>
-                    <a href="#">David Canellis</a><span> 1 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Square stock on fire: Jack Dorsey's
-                        beard sets 3 share price records in 3 days</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -440,18 +476,25 @@
                     </a>
                 </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
-                    </a>
-                    <a href="#">David Canellis</a><span> 1 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Square stock on fire: Jack Dorsey's
-                        beard sets 3 share price records in 3 days</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -474,28 +517,26 @@
                         <h2>Creative <i class="fas fa-chevron-right"></i></h2>
                     </a>
                 </div>
-
-            </div>
-
-            <div class="container__other-news">
-                <div class="latest__header">
-                    <a href="#">
-                        <h2>Podium <i class="fas fa-chevron-right"></i></h2>
-                    </a>
-                </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
-                    </a>
-                    <a href="#">David Canellis</a><span> 1 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Square stock on fire: Jack Dorsey's
-                        beard sets 3 share price records in 3 days</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -510,27 +551,35 @@
                         <li><a href="#">Can we really trust the Cloud with our data?</a></li>
                     </ul>
                 </div>
+
             </div>
 
             <div class="container__other-news">
                 <div class="latest__header">
                     <a href="#">
-                        <h2>Insight <i class="fas fa-chevron-right"></i></h2>
+                        <h2>Podium <i class="fas fa-chevron-right"></i></h2>
                     </a>
                 </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
-                    </a>
-                    <a href="#">David Canellis</a><span> 1 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Square stock on fire: Jack Dorsey's
-                        beard sets 3 share price records in 3 days</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -554,18 +603,25 @@
                     </a>
                 </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>I’ve fallen for the electric Hummer and I hate myself for it</h3>
-                    </a>
-                    <a href="#">Matthew Beedham</a><span> 1 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Square stock on fire: Jack Dorsey's
-                        beard sets 3 share price records in 3 days</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -589,17 +645,25 @@
                     </a>
                 </div>
                 <div class="other__news-details">
-                    <h5>Most Popular</h5>
-                    <a href="#">
-                        <h3>Lucid has the most beautiful car configurator I've ever seen</h3>
-                    </a>
-                    <a href="#">Matthew Beedham</a><span> 2 day ago</span>
+                    <div class="other__news-details-left">
+                        <h5>Most Popular</h5>
+                        <a href="#">
+                            <h3>Slack stock hits record highs as traders buy the Salesforce rumor</h3>
+                        </a>
+                    </div>
+                    <div class="other__news-details-right">
+                        <a class="author-link" href="#">David Canellis</a><span> 1 day ago</span>
+                    </div>
                 </div>
                 <div class="other__news-under-note">
-                    <h5>Latest</h5>
-                    <a href="#"></a>
-                    <h3>Stop embarrassing yourself in Zoom calls — use this app to check your face</h3>
-                    <img src="images/pexels-cover-2.jpg" alt="image">
+                    <div class="under-note-text">
+                        <span>Latest</span>
+                        <a href="#">
+                            <h3>Square stock on fire: Jack Dorsey's
+                                beard sets 3 share price records in 3 days</h3>
+                        </a>
+                    </div>
+                    <a href="#"> <img src="images/pexels-cover-2.jpg" alt="image"></a>
                 </div>
                 <div class="other__news-link">
                     <ul>
@@ -625,59 +689,117 @@
             </div>
             <div class="latest__deals">
                 <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>StackSkills Unlimited: Lifetime Access</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
 
                     <div>
-                        <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
+                        <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
+                    </div>
+                </div>
+                <div class="latest__deals-details">
+                    <div class="latest__deals-image">
+                        <a href="#">
+                            <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#">
+                            <span>The Official Cyber Monday Mac Bundle Ft. Parallels Pro & Luminar 4</span>
+                        </a>
                         <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
                     </div>
                 </div>
 
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
-                </div>
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
 
-                </div>
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
-
-                </div>
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
-
-                </div>
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
-
-                </div>
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <p>
-                        <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
-                    </p>
-
-                </div>
-                <div class="latest__deals-details">
-                    <img src="images/pexels-alexas-fotos-2277784.jpg" alt="">
-                    <p>
-                        <span>Stackskills Unlimited: Lifetime Access</span>
-                    <h5><span class="old_price">$1495 </span> <span> $159 </span></h5>
-                    </p>
-
-                </div>
             </div>
 
         </section>

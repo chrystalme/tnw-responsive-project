@@ -9,7 +9,7 @@ main {
 }
 
 /* header */
-.site__header {
+.site__header-max-screen {
   display: none;
 }
 
@@ -22,9 +22,12 @@ main {
   font-weight: 400;
   flex-direction: row;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   position: -webkit-sticky;
+  left: 0;
   top: 0;
+  width: 100%;
+  z-index: 3000;
 }
 
 .site__nav-left {
@@ -146,6 +149,7 @@ main {
   display: flex;
   align-items: center;
   margin: auto;
+  width: 90%;
 }
 
 .latest__news-item a {
@@ -185,12 +189,12 @@ main {
 
 /* Story Section */
 .section__story {
-  display: block;
+  /* display: block; */
   margin: auto 10px;
 }
 
 .section__story-card {
-  max-width: 100%;
+  width: 100%;
 }
 
 .section__story-flow {
@@ -363,16 +367,22 @@ main {
   grid-template-rows: 1fr;
 }
 
-.latest__deals-details {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
+.latest__deals img {
+  width: 70px;
+  margin-right: 10px;
 }
 
-.latest__deals-details img {
-  flex: 1;
-  width: 70px;
-  padding-right: 10px;
+.latest__deals a {
+  color: #000;
+  text-decoration: none;
+}
+
+.latest__deals-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  width: 100%;
 }
 
 .latest__deals-details h5 {
@@ -439,6 +449,10 @@ main {
   margin-right: 5px;
   color: #666;
   text-decoration: none;
+}
+
+.latest__deals a:hover {
+  color: #f42;
 }
 
 .other__news-details a:last-child {
