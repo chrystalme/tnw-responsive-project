@@ -1,0 +1,258 @@
+
+/* Medium screen */
+
+@media (min-width: 768px) {
+  /* header section */
+
+  .header__black {
+    background-color: #000;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .header__small {
+    display: none;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    position: absolute;
+    float: right;
+    right: 0;
+  }
+
+  .site__header-content a {
+    color: antiquewhite;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: small;
+  }
+
+  .site__nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site__header-max-screen {
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .site__nav-links a {
+    font-size: small;
+  }
+
+  .site__nav-links {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .header__md {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .header__md-logo {
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .margin-fix {
+    margin-left: 120px;
+  }
+
+  .header__md-svg {
+    height: 70px;
+    width: 80px;
+  }
+
+  .site__nav-right-bar {
+    display: none;
+  }
+
+  /* cover Section */
+
+  .site__nav {
+    display: none;
+  }
+
+  .cover {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 180px 180px;
+    justify-content: space-around;
+    width: 100%;
+    column-gap: 5px;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .cover a {
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    margin: 5px;
+  }
+
+  .cover__main {
+    margin: 5px 5px 0 5px;
+    max-width: 100%;
+    padding: 15px;
+    position: relative;
+  }
+
+  .side__0 {
+    grid-row: 1/3;
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .side__0 h2 {
+    font-size: 30px;
+  }
+
+  .side__1 h2 {
+    font-size: 20px;
+  }
+
+  .side__1 {
+    grid-column: 2/3;
+    background:
+      linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, #fff0 100%),
+      url("../images/pexels-cover-2.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .side__2 {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover-3.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .cover__main h3 {
+    font-style: italic;
+  }
+
+  .cover__main h2 {
+    font-weight: 700;
+  }
+
+  /* Latest News Large screen */
+  .latest__news {
+    width: 90%;
+    margin: 80px auto 50px auto;
+  }
+
+  .latest__news-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .latest__header {
+    flex: 1;
+  }
+
+  .latest__header a {
+    text-decoration: none;
+    color: #f42;
+  }
+
+  .latest__nav {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .latest__news-item {
+    flex: 1;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest__news-text p {
+    width: 350px;
+  }
+
+  .latest__news-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+  }
+
+  .latest__news-item img {
+    width: 370px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .latest__news-item span {
+    color: #666;
+  }
+
+  .section__latest_header {
+    margin: 0 auto;
+    width: 93%;
+  }
+
+  .section__latest-deals {
+    width: 100%;
+  }
+
+  .latest__deals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .latest__deals-image img {
+    width: 370px;
+    height: auto;
+  }
+
+  .latest__deals-details {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,343 @@
+/* Media Query for large screen */
+@media (min-width: 1024px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header__md-logo {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* header */
+  .site__header-max-screen {
+    display: block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    position: absolute;
+    top: 10px;
+    float: right;
+    right: 0;
+  }
+
+  .site__header-content {
+    margin: 0 20px;
+  }
+
+  .site__header-content a {
+    color: antiquewhite;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  .site__nav {
+    align-content: center;
+    background-color: white;
+    display: flex;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .site__nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* .site__nav-logo {
+    padding: 10px 10px;
+    width: 100px;
+    background: #000;
+  } */
+
+  .site__nav-right {
+    align-self: center;
+    padding: 10px;
+  }
+
+  .site__nav-right a {
+    padding-right: 10px;
+    text-decoration: none;
+  }
+
+  .fas {
+    font-size: 20px;
+    line-height: 100%;
+    padding-left: 5px;
+  }
+
+  .fa-search {
+    color: #666;
+  }
+
+  .fa-bars {
+    color: orangered;
+  }
+
+  .latest__nav {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  /* cover story section */
+  .cover {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    column-gap: 5px;
+    grid-template-rows: 270px 270px;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .cover a {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    margin: 5px;
+  }
+
+  .cover__main {
+    margin: 5px 5px 0 5px;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .side__0 {
+    grid-row: 1/3;
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .side__0 h2 {
+    font-size: 70px;
+  }
+
+  .side__1 {
+    grid-column: 2/3;
+    background:
+      linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, #fff0 100%),
+      url("../images/pexels-cover-2.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .side__2 {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover-3.jpg") no-repeat;
+    background-size: 100%;
+  }
+
+  .cover__main h3 {
+    font-style: italic;
+  }
+
+  .cover__main h2 {
+    font-weight: 700;
+  }
+
+  /* Latest section */
+  .aside__link a {
+    display: inline;
+    border-right: 1px solid #f42;
+    color: orangered;
+    text-decoration: none;
+  }
+
+  /* story section */
+
+  .section__story {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+    width: 90%;
+  }
+
+  .section__story-card {
+    background-color: rgb(252, 222, 226);
+    flex: 1;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    max-width: 285px;
+  }
+
+  .section__story-flow {
+    background-color: lightcoral;
+  }
+
+  .section__story-flow h3 {
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    right: -90px;
+  }
+
+  .section__story-flow h5 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #666;
+    text-transform: uppercase;
+    font-style: italic;
+    position: relative;
+    top: -30px;
+    right: -90px;
+  }
+
+  .section__story-card h2 {
+    background-color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding: 10px 100px;
+    color: antiquewhite;
+  }
+
+  .section__story-footnote {
+    padding-bottom: 20px;
+  }
+
+  .section__story-footnote a {
+    text-decoration: none;
+    color: #666;
+  }
+
+  .section__story-footnote ul {
+    border-bottom: 1px solid rgb(255, 123, 100);
+    padding-left: 30px;
+    list-style: none;
+  }
+
+  .section__story-footnote li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .section__story-end a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .section__story-end {
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .section__story-end span {
+    color: tan;
+  }
+
+  .section__story-card img {
+    position: relative;
+    top: -30px;
+    left: 20px;
+    width: 60px;
+  }
+
+  /* Hard Fork Section */
+  .other__news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container__other-news {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .other__news-details {
+    column-gap: 20px;
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("../images/pexels-cover.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50% 14px 14px 5px;
+    margin-bottom: 5px;
+  }
+
+  .other__news-details h2 {
+    margin: 50px;
+  }
+
+  .other__news-details a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .other__news-details span {
+    color: #666;
+  }
+
+  .other__extracts {
+    flex: 1;
+  }
+
+  .other__news-under-note {
+    display: flex;
+    background-color: bisque;
+    margin-bottom: 4px;
+  }
+
+  .other__news-under-note img {
+    width: 120px;
+  }
+
+  .other__news-under-note a {
+    display: inline;
+    text-decoration: none;
+  }
+
+  .under-note-text {
+    flex: 1;
+  }
+
+  .under-note-text span {
+    color: #666;
+    padding-top: 5px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .other__news-link a {
+    text-decoration: none;
+    color: #666;
+    width: 80%;
+  }
+
+  .other__news-link li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    color: #f42;
+  }
+}
